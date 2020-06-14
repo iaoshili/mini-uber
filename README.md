@@ -55,8 +55,9 @@ locationTable (Redis)
 - last_updated: time_stamp
 
 
-## Helper service
-matchSvc can be put behind a message queue because it takes time to match a driver
+## Helper components
+- matchSvc can be put behind a message queue because it takes time to match a driver
+- setup a cron job to periodically clean up outdated location table data
 
 
 ## Pseudo code
