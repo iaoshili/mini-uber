@@ -1,0 +1,15 @@
+{
+	"name": "Mini base",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "users",
+	"workspaceFolder": "/usr/src/app",
+	"extensions": [
+		"ms-python.python",
+        "littlefoxteam.vscode-python-test-adapter",
+        "kiteco.kite",
+		"VisualStudioExptTeam.vscodeintellicode",
+        "almenon.arepl",
+	],
+    "shutdownAction": "none",
+    "postCreateCommand": "python manage.py recreate_db && python manage.py seed_db"
+}
