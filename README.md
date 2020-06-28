@@ -1,6 +1,6 @@
 ## API Gateway / Features
-reportLocation(api_key, driver_id, longitude, latitude) => return trip
-findDriver(api_key, user_id, cur_longtitude, cur_latitude, destination_longtitude, destination_latitude) => trip_info, driver_info, vehicle_info
+- reportLocation(api_key, driver_id, longitude, latitude) => return trip
+- findDriver(api_key, user_id, cur_longtitude, cur_latitude, destination_longtitude, destination_latitude) => trip_info, driver_info, vehicle_info
 
 ### Optional features
 - Driver can decline a trip
